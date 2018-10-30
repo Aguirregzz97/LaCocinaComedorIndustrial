@@ -15,7 +15,7 @@ hr {
   max-width: 50px;
   border-width: 3px;
   /*#4FA1C2*/
-  border-color: #4FA1C2; }
+  border-color: #eb3812; }
 
 hr.light {
   border-color: white; }
@@ -42,17 +42,19 @@ p {
   margin-bottom: 20px; }
 
 .bg-primary {
-  background-color: #4FA1C2 !important; }
+  background-color: #e13612 !important; }
 
 .bg-dark {
   color: white;
-  background-color: #222222 !important; }
+  background-color:  #e13612 !important; }
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7); }
 
 section {
-  padding: 100px 0; }
+  color: white;
+  background-color: black;
+  padding: 0px }
 
 .section-heading {
   margin-top: 0; }
@@ -88,10 +90,10 @@ body {
   #mainNav .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
-    color: #4FA1C2;
+    color: black;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #4FA1C2; }
+      color: #eb3812; }
   #mainNav .navbar-toggle {
     font-size: 12px;
     font-weight: 700;
@@ -105,10 +107,10 @@ body {
     color: #222222; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
-      color: #4FA1C2; }
+      color: #eb3812; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active,
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-      color: #4FA1C2 !important;
+      color: #eb3812 !important;
       background-color: transparent; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover,
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
@@ -132,15 +134,15 @@ body {
         background-color: white; }
         #mainNav.navbar-shrink .navbar-brand {
           font-size: 16px;
-          color: #4FA1C2; }
+          color: black; }
           #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-            color: #4FA1C2; }
+            color: #eb3812; }
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
           color: #222222; }
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-            color: #4FA1C2; } }
+            color: #eb3812; } }
 
 header.masthead {
   position: relative;
@@ -148,7 +150,7 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url("../img/IMG_5756.JPG");
+  background-image: url("../img/HeaderBlack1-1Cropped.jpg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -174,8 +176,8 @@ header.masthead {
       color: rgba(255, 255, 255, 0.7); }
   @media (min-width: 768px) {
     header.masthead {
-      height: 100%;
-      min-height: 600px; }
+      height: 90%;
+      min-height: 400px; }
       header.masthead .header-content {
         position: absolute;
         top: 50%;
@@ -261,7 +263,7 @@ header.masthead {
   padding-left: 0; }
 
 .btn-default {
-  color: #222222;
+  color: black;
   border-color: white;
   background-color: white; }
   .btn-default.focus, .btn-default:focus {
@@ -297,18 +299,36 @@ header.masthead {
     color: white;
     background-color: #222222; }
 
+#btnEnviar {
+  color: white;
+  border-color: #4FA1C2;
+  background-color: #eb3812;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  padding: 10px 20px;
+  transition: .1s;
+}
+#btnEnviar:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 .btn-primary {
   color: white;
   border-color: #4FA1C2;
-  background-color: #4FA1C2; }
+  background-color: #eb3812;
+  margin-top: 21rem;
+ }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
-    border-color: #a4270d;
-    background-color: #eb3812; }
+   }
   .btn-primary:hover {
     color: white;
     border-color: #e13612;
-    background-color: #eb3812; }
+  }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     color: white;

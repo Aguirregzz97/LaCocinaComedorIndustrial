@@ -1,18 +1,17 @@
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
-    padding: 60px 0;
+    padding: 50px;
 }
 
 section .section-title {
     text-align: center;
     color: #007b5e;
-    margin-bottom: 50px;
     text-transform: uppercase;
 }
 #footer {
-    background: #2e2e2e !important;
-    padding: 10px 0 !important;
+    background:#e13612 !important;
+    padding-bottom: 20px;
 }
 #footer h5{
 	padding-left: 10px;
